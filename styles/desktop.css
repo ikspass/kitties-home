@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+:root{
+    --light-blue: #CBDEE4;
+    --blue: #3B77A3;
+    --dark-blue: #212844;
+}
+
+.heading-1{
+    font-size: 72px;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.heading-2{
+    font-size: 60px;
+    font-weight: 700;
+    color: var(--dark-blue);
+    text-transform: capitalize;
+}
+.heading-3{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(--dark-blue);
+}
+.accent{
+    color: var(--blue);
+}
+
+body{
+    max-width: 100%;
+    background: var(--light-blue);
+}
+.container{
+    justify-content: center;
+    width: calc(100vw - 200px);
+    margin: 0 100px;
+}
+
+.kitties-home .image-pannel{
+    flex-wrap: wrap;
+}
+section.kitties-home{
+    background-image: url(images/kitties-home-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+}
+.kitties-home .container{
+    display: flex;
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 60px;
+    justify-content: space-between;
+}
+.kitties-home-text{
+    width: 30vw;
+}
+.kitties-home-title{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.kitties-home-discription{
+    color: var(--blue);
+    font-size: 24px;
+}
+.kitties-home img{
+    width: 45vw;
+    border: 20px solid white;
+    border-radius: 10px;
+}
+
+
+section.kitties-library{
+    background-image: url(images/kitties-library-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+}
+.kitties-library .container{
+    padding-bottom: 60px;
+}
+.kitties-library-title{
+    font-size: 50px;
+    line-height: 75px;
+    margin-bottom: 30px;
+    text-align: end;
+}
+.kitties-library-button{
+    display: flex;
+    gap: 20px;
+    justify-content: end;
+    margin-top: 20px;
+}
+.kitties-library-button-title{
+    line-height: 70px;
+}
+.kitties-library-button-image{
+    padding: 12px;
+}
+.kitties-list{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    align-content: flex-start;
+    gap: 65px;
+    flex-wrap: wrap;
+}
+
+img {
+    border: 20px solid white;
+    border-radius: 10px;
+}
+
+section.why-you-need-kitten{
+    background-color: white;
+    padding: 30px 0;
+}
+.why-you-need-kitten .container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.why-need-grid{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    align-content: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.why-need-grid-item{
+    margin: 0 auto;
+    padding: 12px 30px;
+    text-align: center;
+    background: #CBDEE4;
+    border-radius: 100px;
+}
+.why-need-text{
+    align-self: flex-end;
+}
+
+
+section.need-kitten{
+    display: flex;
+    background-image: url(images/you-need-kitten-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    gap: 65px;
+    padding: 60px 0 100px 0;
+}
+.need-kitten .container{
+    display: flex;
+    gap: 65px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+    max-width: 350px;
+}
+.visible{
+    visibility: visible;
+    position: static;
+}
+.hidden{
+    visibility: hidden;
+    position: absolute;
+}

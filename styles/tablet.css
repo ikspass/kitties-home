@@ -1,0 +1,68 @@
+@media(max-width: 920px){
+    .why-need-title{
+        text-align: center;
+    }
+
+    .kitties-home .container{
+        padding-top: 60px;
+    }
+    .kitties-home .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .kitties-home img{
+        width: 100%;
+    }
+
+    section.need-kitten{
+        padding: 60px 0 60px 0;
+    }
+    .kitties-home-text{
+        text-align: center;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .kitties-library-title{
+        text-align: left;
+    }
+    .kitties-item{
+        text-align: center;
+    }
+    .kitties-item-image img{
+        width: 50vw;
+    }
+    .visible{
+        visibility: hidden;
+        position: absolute;
+    }
+    .kitties-home-discription.hidden{
+        padding-top: 25px;
+    }
+
+    .hidden{
+        visibility: visible;
+        position: static;
+        text-align: center;
+    }
+    .kitties-list{
+        gap: 20px;
+    }
+    .column{
+        max-width: 100%;
+        text-align: center;
+    }
+    .why-need-text{
+        text-align: center;
+    }
+    .need-kitten .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .need-kitten-image img{
+        width: 100%;
+    }
+}
